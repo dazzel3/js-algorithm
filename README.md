@@ -1,7 +1,7 @@
-# js-BOJ
+## Baekjoon Online Judge
 
-
-### [백준 알고리즘 단계별로 풀어보기](https://www.acmicpc.net/step) using node.js
+##### js/node.js
+#### [백준 알고리즘 단계별로 풀어보기](https://www.acmicpc.net/step)
 
 |단계|제목|설명|총 문제|
 |---|---|---|---|

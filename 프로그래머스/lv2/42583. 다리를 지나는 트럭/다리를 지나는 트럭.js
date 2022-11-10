@@ -9,8 +9,6 @@ function solution(bridge_length, weight, truck_weights) {
     bridge_weights += truck_weights[0]
     bridge.push(truck_weights.shift())
     
-    console.log(bridge, truck_weights)
-    
     while (bridge_weights > 0) {
         timer++
         bridge_weights -= bridge.shift()

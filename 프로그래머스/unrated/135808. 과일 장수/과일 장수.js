@@ -1,8 +1,8 @@
 function solution(k, m, score) {
     score.sort((a,b) => b-a)
-    const rest = score.length % m
+//     const rest = score.length % m
     
-    if (rest) score.splice(-rest)
+//     if (rest) score.splice(-rest)
     
     const box = []
     let count = 0, answer = 0

@@ -1,20 +1,15 @@
 function solution(k, m, score) {
-    score.sort((a,b) => b-a)
-//     const rest = score.length % m
+    const box = [];
+    let count = 0, answer = 0;
     
-//     if (rest) score.splice(-rest)
-    
-    const box = []
-    let count = 0, answer = 0
+    score.sort((a, b) => b - a);
     
     for (apple of score) {
-        count += 1
-        
+        count += 1;
         if (count === m) {
-            answer += apple * m
-            count = 0
+            answer += apple * m;
+            count = 0;
         }
     }
-    return answer
-    
+    return answer;  
 }
